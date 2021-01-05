@@ -9,3 +9,7 @@ for e in range(len(list)):
     list.append(char)
     x -= 1
     print(list)
+
+print(list)
+print(random.choice(list))
+print(random.sample(list, random.randint(0, len(list))))
